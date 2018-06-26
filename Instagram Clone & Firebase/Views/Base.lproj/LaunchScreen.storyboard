@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="instagram-bg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Zfq-db-Q8N">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coder Instagram Clone" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Rl-vn-7JA">
+                                <rect key="frame" x="16" y="304" width="343" height="58"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iqb-rJ-1XB">
+                                <rect key="frame" x="131" y="285" width="113" height="27"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Zfq-db-Q8N" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="AYp-cS-5nw"/>
+                            <constraint firstItem="0Rl-vn-7JA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="284" id="B3f-tw-hXZ"/>
+                            <constraint firstItem="0Rl-vn-7JA" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="DIU-3F-Emh"/>
+                            <constraint firstItem="iqb-rJ-1XB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="265" id="Dfm-lG-nU8"/>
+                            <constraint firstItem="0Rl-vn-7JA" firstAttribute="centerX" secondItem="Zfq-db-Q8N" secondAttribute="centerX" id="Eym-hh-ylG"/>
+                            <constraint firstItem="Zfq-db-Q8N" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="LlG-bM-tUf"/>
+                            <constraint firstAttribute="trailing" secondItem="Zfq-db-Q8N" secondAttribute="trailing" id="Mi7-pY-0CL"/>
+                            <constraint firstItem="Zfq-db-Q8N" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="e0H-el-kHh"/>
+                            <constraint firstItem="iqb-rJ-1XB" firstAttribute="centerX" secondItem="0Rl-vn-7JA" secondAttribute="centerX" id="heb-85-xo0"/>
+                            <constraint firstItem="0Rl-vn-7JA" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="wtC-vc-f9J"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="instagram-bg.jpg" width="768" height="1280"/>
+    </resources>
+</document>
